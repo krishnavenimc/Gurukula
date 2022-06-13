@@ -1,0 +1,134 @@
+body {
+    border:9px solid black;
+       
+    font-family: Arial,sans-serif;
+  } 
+   img{
+      float:right;
+  }
+        nav {          
+          background-color:navy;   
+            height:40px;                     
+        }
+  #school a{
+                 float:right;
+                 color:black;
+                  font-weight:bolder;
+                  padding:3px;
+                  border:5px outset brown; 
+                  border-radius: 30%;
+                  background-color:whitesmoke;
+                  width:170px;
+                  text-align:center;
+                  margin-right:20px;
+                  margin-left:20px;;
+      
+  }
+  #school1 a{
+    font-size:20px;
+    color:antiquewhite;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+      
+        main {
+          /* background:url("./school/vid.mp4");*/
+          padding: 20px;
+        }
+        footer {
+          background-color: dimgrey;
+             border:3px solid grey;
+            padding:4px;
+  }
+     h1{
+            padding:10px;
+          }
+        header {
+              background:rgb(218, 204, 123);
+            background-size:cover;
+            background-repeat:no-repeat;
+              height : 170px;
+             font-weight:bold;
+            text-align:center;
+            font-family: sans-serif;
+            border:9px double black;
+            color:brown;
+  }
+  section {
+          margin-bottom: 30px;
+             font-family: monospace;
+              font-size:25px;
+              color:white;
+              text-align:left;
+        }
+  ol{
+    font-family: monospace;
+      font-weight:bold;
+      font-size:20px;
+  }
+  .v1{
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width:100%;
+    max-width:100%;
+    width:auto;
+    height:auto;
+    z-index:-999;
+  }
+  
+  h2{
+      border:2px solid navy;
+      width:300px;
+      text-align:center;
+      background-color:burlywood;
+      color:black;
+      font-size:22px;
+  }
+  .img1{
+    float:left;
+    width:180px;
+    height:160px;
+    border:8px solid rgb(220, 77, 16);
+  }
+  aside{
+   
+      float:right;
+      margin-top:10px;
+     
+  }
+  aside img{
+    
+      width:150px;
+      display:block;
+      height:130px;
+      border:5px solid violet;
+      margin-bottom:20px;
+      margin-top:10px;
+     
+  }
+
+
+  .a3{
+        display:grid;
+        margin:0px;
+        
+  }
+ 
+  button {
+      display:inline-block;
+      margin-left:20%;
+      margin-right:10px;
+      text-align:center;
+      width:70px;
+      border:4px outset orangered;
+      background-color:whitesmoke;
+          font-family:arial;
+          text-decoration: none;
+      font-weight:bold;
+      
+      
+  }

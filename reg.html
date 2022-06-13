@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <title>Student Registration form</title>
+        <style>
+        body{
+     background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-student-learning-poster-background-image_158887.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:cover;
+                text-align: center;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size:large;
+                margin:23px;
+            padding:12px;
+                border:10px outset skyblue;
+
+}
+
+#stdtForm{
+    background-color: aliceblue;
+    max-width: 500px;
+    padding: 10px 40px;
+    margin: 10px auto;
+    box-shadow: 2px 5px 10px;
+}
+.form-control{
+    padding: 5px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.form-control input[type=text], .form-control textarea{
+    display:inline-block;
+    width: 100%;
+    height: 30px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.form-control input[type=email]{
+    border: 2px solid green;
+    border-radius: 5px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    color: white;
+}
+button[type=reset]{
+    background-color: blue;
+    
+}
+button[type=submit]{
+    background-color: green;
+   
+}
+     button:hover{
+    background-color: deeppink;
+           transition-property: all;
+        transition-duration: 2s;
+         border:8px outset green;
+     
+}
+.form-control input[type=radio]{
+    display:inline-block;
+    width: auto;
+}
+  .form-control input[type="checkbox"]{
+     width:auto;
+     display:inline-block;      
+     font-size:23px;
+      text-align:left;
+
+}
+        
+        </style>
+    </head>
+    <body>
+        <h1>
+            Student Registration Form 
+        </h1>
+        <form id="stdtForm">
+            <div class="form-control">
+                <label for="firstName">First Name* :</label><br>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter your First Name" value="JOHN" required> 
+            </div>
+            <div class="form-control">
+                <label for="middleName">Middle Name* :</label><br>
+                <input type="text" id="middleName" name="middleName" placeholder="Enter your Middle Name"> 
+            </div>
+            <div class="form-control">
+                <label for="lastName">Last Name :</label><br>
+                <input type="text" id="lastName" name="lastName" placeholder="Enter your Last Name" required>
+            </div>
+            <div class="form-control">
+                <label for="email">Email Id :</label><br>
+                <input type="email" id="email" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-control">
+                <label for="mobile">Mobile Number :</label><br>
+                <input type="text" id="mobile" name="mobile"  required>
+            </div>
+            <div class="form-control">
+                <label>Select Your Department</label><br>
+                <input type="radio" id="department" name="department" value="BSC">BSC
+                <input type="radio" id="department" name="department" value="BA">BA
+                <input type="radio" id="department" name="department" value="BCA">BCA
+            </div>
+                  <div class="form-control">
+                <label for="ch" >Well Known Programming Languages</label><br/>
+                <input type="checkbox" name="ch" id="ch" >HTML<br>
+                <input type="checkbox" name="ch" id="ch" >C-Programming<br>
+                <input type="checkbox" name="ch" id="ch" >JavaScript<br>
+                <input type="checkbox" name="ch" id="ch" >Python<br>
+                <input type="checkbox" name="ch" id="ch" >React<br>
+            </div>
+            <div class="form-control">
+                <label>Address</label><br>
+                <textarea cols="30" rows="10" placeholder="Enter your Address">
+                    
+                </textarea><br>
+            </div>
+       
+            <button type="reset">Reset</button>
+            <button type="submit" value="submit">Submit</button>
+        </form>
+    </body>
+</html>

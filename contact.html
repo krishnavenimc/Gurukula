@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   
+    <title>Contact Form</title>
+<style>
+    body{
+    margin:100px 290px;
+    border:2px solid rgb(67, 178, 198);  
+   
+    
+}
+legend{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+form{
+    background-color: rgb(8, 205, 219);
+    
+}
+
+input,textarea{
+     margin-bottom:10px;     
+     width:70%;
+     padding:10px;
+     border:2px solid black;
+     box-sizing: border-box;
+     border-radius: 4px;
+     background-color: white;
+   
+}
+
+input[type="checkbox"]
+{
+    margin-left:-170px;
+    width:28px;
+}
+button{
+    margin-top:20px;
+    margin-bottom: 30px;
+    padding:6px;
+    width:20%;
+    background-color:white;
+}
+button:hover{
+    background-color:darkcyan;
+    padding:8px;
+}
+</style>
+</head>
+
+<body>
+        <center>
+          <form>
+            <legend>Contact Form</legend>
+
+            <input id="name" name="name" value="Name"><br>
+
+            
+            <input id="email" name="email" value="Email"><br>
+
+            <textarea id="message" name="message" rows="9" cols="40" placeholder="Message"></textarea><br>
+            
+            <input type="checkbox" name="copy" style="text-align:left;" >Send a copy to my email address
+            <br>
+
+            <button type="submit" >SEND</button>
+          </form>
+
+       </center>
+
+
+
+</body>
+</html>
